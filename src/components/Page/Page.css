@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.span:hover{
+    cursor: text;
+}
+
+.yellow-nav{
+    background-color: #ffc30d;
+    display: flex;
+    margin-top: auto;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 13.5px;
+    font-weight: 450;
+    color: #232323;
+    gap: 4px;
+}
+
+.lis:hover{
+    background-color: #c6edff;
+    cursor: pointer;
+    padding-top: 1px;
+    padding-left: 1px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+    border-radius: 3px;
+}
+
+.div-triangle{
+    position: absolute;
+    margin-left: 10px;
+    top: 32.7rem;
+}
+
+.triangle{
+    rotate: 4deg;
+    height: 3.3rem;
+    background-color: white;
+    width: 3.5rem;
+}
+
+.div-kite{
+    margin-left: 17.6rem;
+}
+
+.kite{
+    height: 5rem;
+    width: 5rem;
+    margin-top: 2rex;
+}
+
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.n-left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.n-name{
+    font-weight: bold;
+    margin-top: 20px;
+    color: #0284C7;
+    margin-left: 4rem;
+    font-family: cursive;
+    font-size: 1.7rem;
+}
+
+.n-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.n-list{
+    flex: 10;
+}
+
+.n-list>ul{
+    font-size: 16px;
+    display: flex;
+    gap: 2rem;
+    margin-top: 20px;
+    margin-left: 13rem;
+    cursor: pointer;
+}
+
+.house{
+    width: 20px;
+    height: 14.5px;
+    margin-right: 3px;
+}
+
+.building{
+    width: 20px;
+    height: 16px;
+    margin-right:  2px;
+}
+
+.book{
+    width: 22px;
+    height: 16px;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.cart{
+    width: 20px;
+    height: 24px;
+    margin-right: -30px;
+}
+
+.cart:hover{
+    cursor: default;
+}
+
+.phenom{
+    margin-top: -50px;
+    font-size: 93px;
+    color: #232323;
+    letter-spacing: 0.3rem;
+    margin-left: 5rem;
+}
+
+.p-text{
+    font-size: 17px;
+    margin-left: 5rem;
+    font-weight: 100;
+}
+
+.state{
+    margin-top: -0rem;
+    color: #232323;
+    margin-left: 5rem;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+}
+
+.select{
+    height: 40px;
+    width: 44%;
+    margin-left: 5rem;
+    margin-top: 7px;
+    outline: none;
+    padding: 0 10px;
+}
+
+.state2{
+    margin-left: 5rem;
+    margin-top: -0rem;
+    font-size: 16px;
+    color: #232323;
+    letter-spacing: 0.4px;
+}
+
+.search-button{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 44%;
+    margin-left: 5rem;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.power{
+    margin-top: -640px;
+    margin-left: 44rem;
+}
+
+.pic{
+    width: 34.9rem;
+    height: 580px;
+    border-radius: 20px 0px 0px 0px;
+}
+
+.shapes{
+    position: relative;
+    margin-left: 41.5rem;
+    top: -12rem;
+}
+
+.circle{
+    right: 40px;
+    top: -200px;
+    height: 75px !important;
+    width: 75px !important;
+    border-radius: 50%;
+    background-color: teal;
+}
+
+.state3{
+    margin-left: 5rem;
+}
+
+@media screen and (max-width: 500px){
+    .yellow-nav{
+        margin-top: 0.1rex;
+        height: 50px;
+        width: 30rem;
+        text-align: center;
+        align-items: center;
+        font-size: 9.5px;
+    }
+
+    .state{
+        margin-left: 2.5rem;
+    }
+
+    .state3{
+        color: #232323;
+        margin-left: 2.5rem;
+    }
+
+    .div-triangle{
+        margin-left: -0.1rem;
+        rotate: -5deg;
+        margin-top: 1.6rem;
+    }
+
+    .circle{
+        margin-top: 40px;
+        margin-left: -20rem;
+    }
+
+    .triangle{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .phenom{
+        font-size: 70px;
+        margin-left: 2.5rem;
+    }
+
+    .n-name{
+        font-size: 26px;
+        margin-left: 2.5rem;
+    }
+
+    .kite{
+        transform: scale(0.6);
+    }
+
+    .pic{
+        display: none!important;
+    }
+
+    .div-kite{
+        margin-left: 11.5rem;
+    }
+
+    .power{
+        display: none!important;
+    }
+
+    .p-text{
+        color: black;
+        margin-left: 2.5rem;
+        font-size: 15px;
+    }
+
+    .select{
+        margin-left: 2.5rem;
+        width: 22rem;
+        height: 2rem;
+    }
+
+    .state2{
+        margin-left: 2.5rem;
+    }
+
+    .search-button{
+        margin-left: 2.5rem;
+        width: 22rem;
+    }
+
+    .div-triangle{
+        top: 26.6rem;
+    }
+
+    .lis{
+        display: none;
+    }
+
+    .cart{
+        src: url(screenshot.jpeg);
+        margin-left: -17rem;
+    }
+}
